@@ -10,7 +10,6 @@ Source0: http://osdn.dl.sourceforge.net/sourceforge/biloba/%{name}-%{version}.ta
 License: GPL
 Group:  Games/Boards
 Url: 	http://biloba.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: SDL_image-devel
 BuildRequires: SDL-devel
 BuildRequires: ImageMagick
