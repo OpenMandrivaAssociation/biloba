@@ -1,6 +1,6 @@
 %define name biloba
 %define version 0.4
-%define release %mkrel 5
+%define release %mkrel 7
 
 Summary: A tactical board game
 Name: %{name}
