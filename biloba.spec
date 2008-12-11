@@ -13,7 +13,7 @@ Url: 	http://biloba.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: SDL_image-devel
 BuildRequires: SDL-devel
-BuildRequires: ImageMagick
+BuildRequires: imagemagick
 BuildRequires: SDL_mixer-devel 
 %description
 Biloba is a very innovative tactical board game. 
