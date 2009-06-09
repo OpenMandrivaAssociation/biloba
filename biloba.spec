@@ -25,12 +25,13 @@ online against your opponents.
 %setup -q
 
 %build
-%configure
+%configure --bindir=%{_gamesbindir} --datadir=%{_gamesdatadir}
 %make
 
 %install
 rm -rf %{buildroot}
-%makeinstall
+%makeinstall bindir=%{buildroot}%{_gamesbindir} \
+	datadir=%{buildroot}%{_gamesdatadir}
 
 # install menu
 
@@ -69,8 +70,8 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%{_bindir}/biloba
-%{_datadir}/biloba
+%{_gamesbindir}/%{name}
+%{_gamesdatadir}/%{name}
 %{_liconsdir}/%name.png
 %{_miconsdir}/%name.png
 %{_iconsdir}/%name.png
