@@ -78,3 +78,72 @@ rm -rf %{buildroot}
 %{_datadir}/applications/mandriva-biloba.desktop
 %doc AUTHORS ChangeLog README
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.6-2mdv2011.0
++ Revision: 616755
+- the mass rebuild of 2010.0 packages
+
+* Tue Jun 09 2009 J√©r√¥me Brenier <incubusss@mandriva.org> 0.6-1mdv2010.0
++ Revision: 384539
+- use gamesbindir and gamesdatadir
+- update to new version 0.6
+- fix desktop file
+- fix license
+- add doc
+- clean spec file
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 0.4-7mdv2009.0
++ Revision: 243285
+- rebuild
+- drop old menu
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 0.4-5mdv2008.1
++ Revision: 135829
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Sep 01 2006 Nicolas L√©cureuil <neoclust@mandriva.org>
++ 2006-09-01 17:02:16 (59381)
+- Fix File List
+
+* Fri Sep 01 2006 Nicolas L√©cureuil <neoclust@mandriva.org>
++ 2006-09-01 14:55:27 (59330)
+- XDG
+
+* Thu Aug 03 2006 Nicolas L√©cureuil <neoclust@mandriva.org>
++ 2006-08-03 09:44:11 (43092)
+- import biloba-0.4-3mdk
+
+* Tue Dec 27 2005 Nicolas LÈcureuil <neoclust@mandriva.org> 0.4-3mdk
+- Fix file section
+
+* Mon Oct 17 2005 Nicolas LÈcureuil <neoclust@mandriva.org> 0.4-2mdk
+- Fix BuildRequires now they are x86_64 friendly
+
+* Mon Oct 17 2005 Erwan Velu <erwan@seanodes.com> 0.4-1mdk
+- 0.4
+
+* Fri Sep 30 2005 Nicolas LÈcureuil <neoclust@mandriva.org> 0.3-3mdk
+- Fix BuildRequires
+
+* Thu Sep 29 2005 Nicolas LÈcureuil <neoclust@mandriva.org> 0.3-2mdk
+- Fix menu entry  group != menu
+
+* Tue Sep 27 2005 Erwan Velu <erwan@seanodes.com> 0.3-1mdk
+- 0.3
+- Adding menu entry
+
+* Fri Sep 23 2005 Erwan Velu <erwan@seanodes.com> 0.2-1mdk
+- initial release
+
