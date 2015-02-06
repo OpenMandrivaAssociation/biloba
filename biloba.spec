@@ -1,7 +1,7 @@
 Summary:	A tactical board game
 Name:		biloba
 Version:	0.9.3
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Games/Boards
 Url:		http://biloba.sourceforge.net/
