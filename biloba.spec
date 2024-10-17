@@ -4,7 +4,7 @@ Version:	0.9.3
 Release:	3
 License:	GPLv2+
 Group:		Games/Boards
-Url:		http://biloba.sourceforge.net/
+Url:		https://biloba.sourceforge.net/
 Source0:	http://osdn.dl.sourceforge.net/sourceforge/biloba/%{name}-%{version}.tar.gz
 BuildRequires:	imagemagick
 BuildRequires:	pkgconfig(sdl)
