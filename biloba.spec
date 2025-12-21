@@ -6,6 +6,11 @@ License:	GPLv2+
 Group:		Games/Boards
 Url:		https://biloba.sourceforge.net/
 Source0:	http://osdn.dl.sourceforge.net/sourceforge/biloba/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	imagemagick
 BuildRequires:	pkgconfig(sdl)
 BuildRequires:	pkgconfig(SDL_image)
